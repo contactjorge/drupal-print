@@ -46,7 +46,7 @@ function print_ui_theme() {
     ),
     'print_ui_settings' => array(
       'render element' => 'form',
-      'file' => 'print_ui.admin.inc',
+      'file' => 'print_ui.admin.inc.php.php',
     ),
   );
 }
@@ -64,7 +64,7 @@ function print_ui_menu() {
     'access arguments'  => array('administer print'),
     'weight' => 9,
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_ui.admin.inc',
+    'file' => 'print_ui.admin.inc.php.php',
   );
 
   return $items;

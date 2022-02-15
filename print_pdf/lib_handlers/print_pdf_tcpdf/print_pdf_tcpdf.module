@@ -36,23 +36,23 @@ function print_pdf_tcpdf_theme() {
   return array(
     'print_pdf_tcpdf_header' => array(
       'variables' => array('pdf' => NULL, 'html' => '', 'font' => array()),
-      'file' => 'print_pdf_tcpdf.pages.inc',
+      'file' => 'print_pdf_tcpdf.pages.inc.php',
     ),
     'print_pdf_tcpdf_page' => array(
       'variables' => array('pdf' => NULL),
-      'file' => 'print_pdf_tcpdf.pages.inc',
+      'file' => 'print_pdf_tcpdf.pages.inc.php',
     ),
     'print_pdf_tcpdf_content' => array(
       'variables' => array('pdf' => NULL, 'html' => '', 'font' => array()),
-      'file' => 'print_pdf_tcpdf.pages.inc',
+      'file' => 'print_pdf_tcpdf.pages.inc.php',
     ),
     'print_pdf_tcpdf_footer' => array(
       'variables' => array('pdf' => NULL, 'html' => '', 'font' => array()),
-      'file' => 'print_pdf_tcpdf.pages.inc',
+      'file' => 'print_pdf_tcpdf.pages.inc.php',
     ),
     'print_pdf_tcpdf_footer2' => array(
       'variables' => array('pdf' => NULL),
-      'file' => 'print_pdf_tcpdf.pages.inc',
+      'file' => 'print_pdf_tcpdf.pages.inc.php',
     ),
   );
 }
@@ -70,7 +70,7 @@ function print_pdf_tcpdf_menu() {
     'page arguments' => array('print_pdf_tcpdf_settings'),
     'access arguments'  => array('administer print'),
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_pdf_tcpdf.admin.inc',
+    'file' => 'print_pdf_tcpdf.admin.inc.php',
   );
 
   return $items;

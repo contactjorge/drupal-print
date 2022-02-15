@@ -48,15 +48,15 @@
  *       - @link print_pdf_mpdf.drush.inc Drush commands @endlink
  *     - TCPDF
  *       - @link print_pdf_tcpdf.module Module main file @endlink
- *       - @link print_pdf_tcpdf.pages.inc PDF generation @endlink
- *       - @link print_pdf_tcpdf.admin.inc Settings form @endlink
+ *       - @link print_pdf_tcpdf.pages.inc.php PDF generation @endlink
+ *       - @link print_pdf_tcpdf.admin.inc.php Settings form @endlink
  *       - @link print_pdf_tcpdf.install (Un)Install routines @endlink
- *       - @link print_pdf_tcpdf.class.inc Auxiliary PHP5 class @endlink
- *       - @link print_pdf_tcpdf.drush.inc Drush commands @endlink
+ *       - @link print_pdf_tcpdf.class.inc.php Auxiliary PHP5 class @endlink
+ *       - @link print_pdf_tcpdf.drush.inc.php Drush commands @endlink
  *     - wkhtmltopdf
- *       - @link print_pdf_wkhtmltopdf.module.php Module main file @endlink
+ *       - @link print_pdf_wkhtmltopdf.module Module main file @endlink
  *       - @link print_pdf_wkhtmltopdf.pages.inc.php PDF generation @endlink
- *       - @link print_pdf_wkhtmltopdf.admin.inc Settings form @endlink
+ *       - @link print_pdf_wkhtmltopdf.admin.inc.php Settings form @endlink
  *       - @link print_pdf_wkhtmltopdf.install (Un)Install routines @endlink
  *       - @link print_pdf_wkhtmltopdf.drush.inc.php Drush commands @endlink
  * - EPUB version
@@ -75,7 +75,7 @@
  * - User Interface (Links)
  *   - @link print_ui.api.php API @endlink
  *   - @link print_ui.module Module main file @endlink
- *   - @link print_ui.admin.inc Settings form @endlink
+ *   - @link print_ui.admin.inc.php Settings form @endlink
  */
 
 /**

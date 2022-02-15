@@ -36,7 +36,7 @@ function print_pdf_wkhtmltopdf_menu() {
     'page arguments' => array('print_pdf_wkhtmltopdf_settings'),
     'access arguments'  => array('administer print'),
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_pdf_wkhtmltopdf.admin.inc',
+    'file' => 'print_pdf_wkhtmltopdf.admin.inc.php',
   );
 
   return $items;
