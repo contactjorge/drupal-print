@@ -54,11 +54,11 @@
  *       - @link print_pdf_tcpdf.class.inc Auxiliary PHP5 class @endlink
  *       - @link print_pdf_tcpdf.drush.inc Drush commands @endlink
  *     - wkhtmltopdf
- *       - @link print_pdf_wkhtmltopdf.module Module main file @endlink
- *       - @link print_pdf_wkhtmltopdf.pages.inc PDF generation @endlink
+ *       - @link print_pdf_wkhtmltopdf.module.php Module main file @endlink
+ *       - @link print_pdf_wkhtmltopdf.pages.inc.php PDF generation @endlink
  *       - @link print_pdf_wkhtmltopdf.admin.inc Settings form @endlink
  *       - @link print_pdf_wkhtmltopdf.install (Un)Install routines @endlink
- *       - @link print_pdf_wkhtmltopdf.drush.inc Drush commands @endlink
+ *       - @link print_pdf_wkhtmltopdf.drush.inc.php Drush commands @endlink
  * - EPUB version
  *   - @link print_epub.api.php API @endlink
  *   - @link print_epub.module Module main file @endlink
