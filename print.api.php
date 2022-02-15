@@ -37,7 +37,7 @@
  *   - @link print_pdf.views.php Views integration @endlink
  *   - PDF library handlers:
  *     - dompdf
- *       - @link print_pdf_dompdf.module Module main file @endlink
+ *       - @link print_pdf_dompdf.module.php Module main file @endlink
  *       - @link print_pdf_dompdf.pages.inc.php PDF generation @endlink
  *       - @link print_pdf_dompdf.admin.inc.php Settings form @endlink
  *       - @link print_pdf_dompdf.install.php (Un)Install routines @endlink
