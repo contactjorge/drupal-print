@@ -1,0 +1,14 @@
+{
+    "name": "contactjorge/drupal-print",
+    "description": "Drupal 7 print module",
+    "type": "drupal-module",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jorge Lopez",
+            "email": "jorge.lopez@elevatenp.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
