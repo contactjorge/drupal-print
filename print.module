@@ -94,27 +94,27 @@ function print_theme() {
         'message' => '',
       ),
       'template' => 'print',
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
     'print_published' => array(
       'variables' => array(),
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
     'print_breadcrumb' => array(
       'variables' => array('node' => NULL),
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
     'print_footer' => array(
       'variables' => array(),
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
     'print_sourceurl' => array(
       'variables' => array('url' => '', 'node' => NULL, 'cid' => NULL),
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
     'print_url_list' => array(
       'variables' => array(),
-      'file' => 'print.pages.inc',
+      'file' => 'print.pages.inc.php',
     ),
   );
 }
@@ -147,7 +147,7 @@ function print_menu() {
     'page callback' => 'print_controller_html',
     'access arguments' => array('access print'),
     'type' => MENU_CALLBACK,
-    'file' => 'print.pages.inc',
+    'file' => 'print.pages.inc.php',
   );
   $items[$link['path'] . '/' . $link['path']] = array(
     'access callback' => FALSE,
@@ -158,7 +158,7 @@ function print_menu() {
     'page callback' => 'drupal_get_form',
     'page arguments' => array('print_html_settings'),
     'access arguments'  => array('administer print'),
-    'file' => 'print.admin.inc',
+    'file' => 'print.admin.inc.php',
   );
   $items['admin/config/user-interface/print/html'] = array(
     'title' => 'Web page',
@@ -173,7 +173,7 @@ function print_menu() {
     'access arguments'  => array('administer print'),
     'weight' => 10,
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print.admin.inc',
+    'file' => 'print.admin.inc.php',
   );
 
   return $items;

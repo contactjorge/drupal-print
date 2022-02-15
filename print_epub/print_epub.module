@@ -50,7 +50,7 @@ function print_epub_menu() {
     'page callback' => 'print_epub_controller',
     'access arguments' => array('access EPUB version'),
     'type' => MENU_CALLBACK,
-    'file' => 'print_epub.pages.inc',
+    'file' => 'print_epub.pages.inc.php',
   );
   $items[$link['path'] . '/' . $link['path']] = array(
     'access callback' => FALSE,
@@ -63,7 +63,7 @@ function print_epub_menu() {
     'access arguments'  => array('administer print'),
     'weight' => 3,
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_epub.admin.inc',
+    'file' => 'print_epub.admin.php',
   );
   $items['admin/config/user-interface/print/epub/options'] = array(
     'title' => 'Options',

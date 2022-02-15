@@ -53,15 +53,15 @@ function print_mail_theme() {
   return array(
     'print_mail_form' => array(
       'render element' => 'form',
-      'file' => 'print_mail.inc',
+      'file' => 'print_mail.inc.php',
     ),
     'print_mail_sendlink_html' => array(
       'variables' => array('params' => NULL),
-      'file' => 'print_mail.inc',
+      'file' => 'print_mail.inc.php',
     ),
     'print_mail_sendlink_plain' => array(
       'variables' => array('params' => NULL),
-      'file' => 'print_mail.inc',
+      'file' => 'print_mail.inc.php',
     ),
   );
 }
@@ -80,7 +80,7 @@ function print_mail_menu() {
     'access callback' => '_print_mail_access',
     'access arguments' => array('access send by email'),
     'type' => MENU_CALLBACK,
-    'file' => 'print_mail.inc',
+    'file' => 'print_mail.inc.php',
   );
   $items[$link['path'] . '/' . $link['path']] = array(
     'access callback' => FALSE,
@@ -93,7 +93,7 @@ function print_mail_menu() {
     'access arguments'  => array('administer print'),
     'weight' => 2,
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_mail.admin.inc',
+    'file' => 'print_mail.admin.inc.php',
   );
 
   return $items;
