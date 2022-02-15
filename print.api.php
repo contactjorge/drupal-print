@@ -14,7 +14,7 @@
  *
  * - Printer-friendly pages
  *   - @link print.api.php API @endlink
- *   - @link print.module Module main file @endlink
+ *   - @link print.module.php Module main file @endlink
  *   - @link print.pages.inc.php HTML generation @endlink
  *   - @link print.admin.inc.php Settings form @endlink
  *   - @link print.install.php (Un)Install routines @endlink
@@ -22,42 +22,42 @@
  *   - @link print.views.inc.php Views integration @endlink
  *   - @link print_join_page_counter.inc Views join handler @endlink
  * - Send by email
- *   - @link print_mail.module Module main file @endlink
+ *   - @link print_mail.module.php Module main file @endlink
  *   - @link print_mail.inc.php Mail form and send mail routine @endlink
  *   - @link print_mail.admin.inc.php Settings form @endlink
- *   - @link print_mail.install (Un)Install routines @endlink
+ *   - @link print_mail.install.php (Un)Install routines @endlink
  *   - @link print_mail.views.php Views integration @endlink
  * - PDF version
  *   - @link print_pdf.api.php API @endlink
- *   - @link print_pdf.module Module main file @endlink
+ *   - @link print_pdf.module.php Module main file @endlink
  *   - @link print_pdf.pages.php PDF generation @endlink
  *   - @link print_pdf.admin.inc.php Settings form @endlink
- *   - @link print_pdf.install (Un)Install routines @endlink
+ *   - @link print_pdf.install.php (Un)Install routines @endlink
  *   - @link print_pdf.drush.inc.php Drush commands @endlink
  *   - @link print_pdf.views.php Views integration @endlink
  *   - PDF library handlers:
  *     - dompdf
  *       - @link print_pdf_dompdf.module Module main file @endlink
- *       - @link print_pdf_dompdf.pages.inc PDF generation @endlink
- *       - @link print_pdf_dompdf.admin.inc Settings form @endlink
- *       - @link print_pdf_dompdf.install (Un)Install routines @endlink
- *       - @link print_pdf_dompdf.drush.inc Drush commands @endlink
+ *       - @link print_pdf_dompdf.pages.inc.php PDF generation @endlink
+ *       - @link print_pdf_dompdf.admin.inc.php Settings form @endlink
+ *       - @link print_pdf_dompdf.install.php (Un)Install routines @endlink
+ *       - @link print_pdf_dompdf.drush.inc.php Drush commands @endlink
  *     - mPDF
- *       - @link print_pdf_mpdf.module Module main file @endlink
- *       - @link print_pdf_mpdf.pages.inc PDF generation @endlink
- *       - @link print_pdf_mpdf.drush.inc Drush commands @endlink
+ *       - @link print_pdf_mpdf.module.php Module main file @endlink
+ *       - @link print_pdf_mpdf.pages.inc.php PDF generation @endlink
+ *       - @link print_pdf_mpdf.drush.inc.php Drush commands @endlink
  *     - TCPDF
- *       - @link print_pdf_tcpdf.module Module main file @endlink
+ *       - @link print_pdf_tcpdf.module.php Module main file @endlink
  *       - @link print_pdf_tcpdf.pages.inc.php PDF generation @endlink
  *       - @link print_pdf_tcpdf.admin.inc.php Settings form @endlink
- *       - @link print_pdf_tcpdf.install (Un)Install routines @endlink
+ *       - @link print_pdf_tcpdf.install.php (Un)Install routines @endlink
  *       - @link print_pdf_tcpdf.class.inc.php Auxiliary PHP5 class @endlink
  *       - @link print_pdf_tcpdf.drush.inc.php Drush commands @endlink
  *     - wkhtmltopdf
- *       - @link print_pdf_wkhtmltopdf.module Module main file @endlink
+ *       - @link print_pdf_wkhtmltopdf.module.php Module main file @endlink
  *       - @link print_pdf_wkhtmltopdf.pages.inc.php PDF generation @endlink
  *       - @link print_pdf_wkhtmltopdf.admin.inc.php Settings form @endlink
- *       - @link print_pdf_wkhtmltopdf.install (Un)Install routines @endlink
+ *       - @link print_pdf_wkhtmltopdf.install.php (Un)Install routines @endlink
  *       - @link print_pdf_wkhtmltopdf.drush.inc.php Drush commands @endlink
  * - EPUB version
  *   - @link print_epub.api.php API @endlink
@@ -69,12 +69,12 @@
  *   - @link print_epub.views.inc Views integration @endlink
  *   - EPUB library handlers:
  *     - phpepub
- *       - @link print_epub_phpepub.module Module main file @endlink
+ *       - @link print_epub_phpepub.module.php Module main file @endlink
  *       - @link print_epub_phpepub.pages.php EPUB generation @endlink
  *       - @link print_epub_phpepub.drush.php Drush commands @endlink
  * - User Interface (Links)
  *   - @link print_ui.api.php API @endlink
- *   - @link print_ui.module Module main file @endlink
+ *   - @link print_ui.module.php Module main file @endlink
  *   - @link print_ui.admin.inc.php Settings form @endlink
  */
 

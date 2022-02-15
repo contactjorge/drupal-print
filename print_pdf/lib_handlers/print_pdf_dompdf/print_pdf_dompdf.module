@@ -32,7 +32,7 @@ function print_pdf_dompdf_theme() {
   return array(
     'print_pdf_dompdf_footer' => array(
       'variables' => array('html' => ''),
-      'file' => 'print_pdf_dompdf.pages.inc',
+      'file' => 'print_pdf_dompdf.pages.inc.php',
     ),
   );
 }
@@ -50,7 +50,7 @@ function print_pdf_dompdf_menu() {
     'page arguments' => array('print_pdf_dompdf_settings'),
     'access arguments'  => array('administer print'),
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_pdf_dompdf.admin.inc',
+    'file' => 'print_pdf_dompdf.admin.inc.php',
   );
 
   return $items;
