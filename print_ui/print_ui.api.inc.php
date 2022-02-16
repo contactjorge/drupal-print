@@ -37,7 +37,7 @@
  *   - icon: the filename of the image used as the link icon.
  *   - module: the name of the module. Used to call common functions or access
  *     tables, as not all module names follow the 'print_format' template (e.g.
- *     print.module.php and not print_html.module).
+ *     print.module and not print_html.module).
  *
  * @ingroup print_hooks
  */

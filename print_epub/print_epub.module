@@ -63,7 +63,7 @@ function print_epub_menu() {
     'access arguments'  => array('administer print'),
     'weight' => 3,
     'type' => MENU_LOCAL_TASK,
-    'file' => 'print_epub.admin.php',
+    'file' => 'print_epub.admin.inc.php',
   );
   $items['admin/config/user-interface/print/epub/options'] = array(
     'title' => 'Options',
